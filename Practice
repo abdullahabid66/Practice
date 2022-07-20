@@ -1,0 +1,46 @@
+class Practice
+{
+public static void main(String args[])
+	{
+	System.out.println("Abdullah");
+	String name="Abd";
+	int x=25;
+	float y=20.2f;
+	boolean n=false; 
+	byte u=45;
+	double d=4.11616164d;	
+	char m='r';	
+	System.out.println(name);
+	System.out.println(x);
+	System.out.println(y);
+	System.out.println(u);
+	System.out.println(n);
+	System.out.println(d);
+	System.out.println(m);
+	int num1 = 25,num2=25;
+System.out.print("The Result of Num1 Sum Num2 =");
+System.out.println(num1+num2);
+num1 *=2;
+num1 +=2;
+System.out.print("The Result of Num1 Sum Num2 =");
+System.out.println(num1*num2);
+num1 +=2;
+System.out.print("The Result of Num1 Sum Num2 =");
+System.out.println(num1/num2);
+
+System.out.print("The Result of Num1 Sum Num2 =");
+System.out.println(++num1);
+System.out.println(num1++);
+System.out.println(--num1);
+System.out.println(num1--);
+
+x scan = new x(System.in);
+System.out.println("Enter Your no.");
+String input=scan.nextLine();
+System.out.println(input); 
+
+
+
+}
+
+}
