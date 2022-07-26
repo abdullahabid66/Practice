@@ -4,7 +4,7 @@ public static void main(String args[])
 	{
 	System.out.println("Abdullah");
 	String name="Abd";
-	int x=25;
+	int x = 25;
 	float y=20.2f;
 	boolean n=false; 
 	byte u=45;
@@ -33,14 +33,99 @@ System.out.println(++num1);
 System.out.println(num1++);
 System.out.println(--num1);
 System.out.println(num1--);
+String add ="Ullah";
+System.out.println(add.length());
+// Find lengtgh
 
-x scan = new x(System.in);
-System.out.println("Enter Your no.");
-String input=scan.nextLine();
-System.out.println(input); 
+System.out.println(name + add);
+// Add to Values
+
+System.out.println(name.toUpperCase()); 
+System.out.println(add.toLowerCase());
+// Alphabet upper lower
+
+//Escape Sequence
+System.out.println(name + " AA\\ " + add);
+System.out.println(name + " AA\' " + add);
+System.out.println(name + " AA\" " + add);
+
+//Find word
+System.out.println(name + " AA\\ " + add);
+
+//No. Find Always Start with 0
+System.out.println(name.charAt(2));
+
+//if Condition
+if(x<5)
+{
+	System.out.println("You are Child");
+}
+if(x>5)
+{
+	System.out.println("You are old");
+}
+int i = 0;
+//While
+while(i<10)
+{
+
+	System.out.println(i);
+	i += 1;
+}
+//For loop
+// When any no. Skipped when it is used
+for(i=1 ; i<=10 ; i++)
+	{
+	if(i==2)
+		{
+		continue;
+		}
+	System.out.println(i);
+	}
+
+//Array
+
+int[] marks={7,5,9,52,5};
+
+// change the third Index no.
+marks[3]= 34;// change the third Index no.
+
+System.out.println(marks[3]);
+for(i=0 ; i<marks.length ; i++)
+	{
+	System.out.print(marks[i]);
+	}
+
+for(int value:marks)
+{
+System.out.println(value);
+}
+
+int [][]matrix = {{1,2,3,},
+		  {4,5,6,}};
+System.out.println(matrix[0][1]);
 
 
+//Try - Catch
+String [] abc = {"AA","BB","CC","DD","EE"};
+try{
+		System.out.println(abc[8]);	
+	}
+catch(Exception e)
+	{
+		System.out.println(e);
+	}
+		System.out.println(abc[4]);
+		
+		
+		
+//Adition Method
 
+int a = 12;
+int b = 17;
+int c = 342;
+int t = a + b + c;
+System.out.println("Addition result = " + t);
 }
 
 }
